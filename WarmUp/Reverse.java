@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Reverse {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(new File("reverse.txt"));
-        ArrayList<String> words = new ArrayList();
+        ArrayList<String> words = new ArrayList<>();
         while (scanner.hasNext()) {
             words.add(scanner.next());
         }
