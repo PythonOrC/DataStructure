@@ -10,11 +10,13 @@ public class Reverse {
             words.add(scanner.next());
         }
         scanner.close();
+
         // Task 1: Print the words in reverse order
         for (int i = words.size() - 1; i >= 0; i--) {
             System.out.print(words.get(i) + " ");
         }
         System.out.println();
+
         // Task 2: Print words all plural caplitalzied
         for (int i = 0; i < words.size(); i++) {
             String word = words.get(i);
@@ -27,6 +29,7 @@ public class Reverse {
 
         }
         System.out.println();
+
         // Task 3: print with all plural words removed
         for (int i = 0; i < words.size(); i++) {
             String word = words.get(i);
